@@ -1,6 +1,17 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+    <div>
+        <NavBar />
+        <NuxtPage />
+        <FooterBar />
+    </div>
 </template>
+
+<script lang="ts" setup>
+useHead({
+    title: "Christopher Nagy's Portfolio",
+});
+</script>
+
+<style>
+@import '~/node_modules/bulma';
+</style>

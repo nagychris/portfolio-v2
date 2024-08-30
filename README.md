@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# nagychris/portfolio-v2
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Second iteration of my personal portfolio website built with [Nuxt 3](https://nuxt.com).
 
 ## Setup
 
