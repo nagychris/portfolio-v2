@@ -54,7 +54,7 @@
                         <div class="buttons">
                             <a
                                 class="button is-light"
-                                href="public/resume-christopher-nagy.pdf"
+                                href="/resume-christopher-nagy.pdf"
                                 target="_blank"
                             >
                                 <span>Resume</span>
