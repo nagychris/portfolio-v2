@@ -8,10 +8,6 @@
 
 <script lang="ts" setup>
 useHead({
-    title: "Christopher Nagy's Portfolio",
+    title: "Chris's Portfolio",
 });
 </script>
-
-<style>
-@import '~/node_modules/bulma';
-</style>

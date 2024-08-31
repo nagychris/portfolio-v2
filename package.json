@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@nuxt/icon": "^1.5.0",
-    "bulma": "^1.0.2",
     "nuxt": "^3.13.0",
     "sass": "^1.77.8",
     "vue": "latest"
