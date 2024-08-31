@@ -1,8 +1,16 @@
-$orange: #E76F51;
-$lightblue: #219EBC;
+// theme inspired by https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51
+$orange: hsl(12, 76%, 61%);
+$blue: hsl(192, 70%, 50%);
+$orange-blue-gradient: linear-gradient(130deg, $orange, 40%, $blue);
 
-// TODO: fix colors
+// Bulma theme colors
+// https://bulma.io/documentation/customize/concepts/
 :root {
-    --bulma-primary: $orange;
-    --bulma-link: $lightblue;
+  --bulma-primary-h: 12;
+  --bulma-primary-s: 76%;
+  --bulma-primary-l: 71%;
+  --bulma-link-h: 197;
+  --bulma-link-s: 69%;
+  --bulma-link-l: 46%;
+  --bulma-scheme-h: 135;
 }

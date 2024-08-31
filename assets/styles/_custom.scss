@@ -1,5 +1,5 @@
 .gradient-color {
-    background: -webkit-linear-gradient(45deg, var(--bulma-primary), var(--bulma-link));
+    background: $orange-blue-gradient;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -8,30 +8,27 @@
 .animate-appear {
     animation-duration: 0.8s;
     animation-name: animate-appear;
-    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
-}
-  
-@keyframes animate-appear {
-0% {
-    opacity: 0;
-}
-100% {
-    opacity: 1;
-}
+    animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
 }
 
-ul > li {
-    padding-left: 1em;
-    margin-bottom: 0.5rem;
-    &::before {
-        content: ">";
-        color: var(--bulma-link);
-        display: inline-block;
-        width: 1em;
-        margin-left: -1em;
+@keyframes animate-appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
 
-a:hover {
-    color: var(--bulma-link-dark);
+ul > li {
+    margin-bottom: 0.5rem;
+}
+
+.section {
+    padding: 1.5rem;
+    
+    & > .title {
+        font-weight: var(--bulma-weight-light);
+        padding-top: 2rem;
+    }
 }

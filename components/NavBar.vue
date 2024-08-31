@@ -1,5 +1,5 @@
 <template>
-    <header class="sticky top-0 z-50">
+    <header>
         <nav
             class="navbar is-fixed-top"
             role="navigation"
@@ -53,7 +53,7 @@
                     <div class="navbar-item">
                         <div class="buttons">
                             <a
-                                class="button is-light"
+                                class="button is-primary"
                                 href="/resume-christopher-nagy.pdf"
                                 target="_blank"
                             >

@@ -1,9 +1,6 @@
 <template>
     <div class="is-flex">
-        <a
-            class="button is-light mr-1"
-            href="mailto:christopher_nagy@icloud.com"
-        >
+        <a class="button mr-1" href="mailto:christopher_nagy@icloud.com">
             <span class="icon-text">
                 <span class="icon">
                     <Icon name="mdi:send" />
@@ -12,7 +9,7 @@
             </span>
         </a>
         <a
-            class="button is-white mr-1"
+            class="button is-text mr-1"
             href="https://linkedin.com/in/nagychristopher"
             target="_blank"
         >
@@ -21,7 +18,7 @@
             </span>
         </a>
         <a
-            class="button is-white"
+            class="button is-text"
             href="https://github.com/nagychris"
             target="_blank"
         >

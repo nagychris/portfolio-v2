@@ -1,4 +1,9 @@
-/* make navbar links centered */
+a:hover:not(.navbar-burger, .button, .navbar-item) {
+    color: var(--bulma-link);
+    text-decoration: underline;
+}
+
+// center navbar links
 .navbar-start {
     flex-grow: 1;
     justify-content: center !important;
