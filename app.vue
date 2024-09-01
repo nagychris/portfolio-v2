@@ -8,6 +8,6 @@
 
 <script lang="ts" setup>
 useHead({
-    title: "Chris's Portfolio",
+    title: "Christopher Nagy's Portfolio",
 });
 </script>
