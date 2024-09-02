@@ -1,5 +1,5 @@
 <template>
-    <div class="is-flex">
+    <div class="buttons">
         <a class="button mr-1" href="mailto:christopher_nagy@icloud.com">
             <span class="icon-text">
                 <span class="icon">

@@ -1,5 +1,5 @@
 <template>
-    <div class="card p-3">
+    <Card>
         <div class="card-content">
             <div class="media">
                 <div class="media-left">
@@ -21,5 +21,5 @@
                 <slot name="experience"></slot>
             </div>
         </div>
-    </div>
+    </Card>
 </template>
