@@ -16,7 +16,7 @@
     "vue": "latest"
   },
   "devDependencies": {
-    "@iconify-json/mdi": "^1.1.68",
+    "@iconify-json/mdi": "^1.2.0",
     "prettier": "^3.3.3"
   }
 }
