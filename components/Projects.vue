@@ -12,7 +12,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { Project } from '~/models/project';
+import type { Project } from '~/models/project'
 
 const projects: Project[] = [
     {
@@ -58,5 +58,5 @@ const projects: Project[] = [
         tags: ['VueJS', 'TypeScript', 'Nuxt 3', 'Bulma'],
         url: 'https://github.com/nagychris/portfolio-v2',
     },
-];
+]
 </script>

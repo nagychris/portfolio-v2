@@ -41,18 +41,18 @@
 </template>
 
 <script lang="ts" setup>
-import type { Project } from '~/models/project';
+import type { Project } from '~/models/project'
 
 const props = defineProps<{
-    project: Project;
-}>();
+    project: Project
+}>()
 
-const link = ref<HTMLAnchorElement | null>(null);
+const link = ref<HTMLAnchorElement | null>(null)
 const clickLink = () => {
     if (link.value) {
-        link.value.click();
+        link.value.click()
     }
-};
+}
 </script>
 
 <style scoped lang="scss">
