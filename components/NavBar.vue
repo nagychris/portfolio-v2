@@ -23,30 +23,22 @@
             </div>
             <div class="navbar-menu" :class="{ 'is-active': isActive }">
                 <div class="navbar-start">
-                    <NuxtLink class="navbar-item" to="/" @click="toggleNavBar">
+                    <a class="navbar-item" href="#" @click="toggleNavBar">
                         Home
-                    </NuxtLink>
-                    <NuxtLink
-                        class="navbar-item"
-                        :to="{ hash: '#about' }"
-                        @click="toggleNavBar"
-                    >
+                    </a>
+                    <a class="navbar-item" href="#about" @click="toggleNavBar">
                         About
-                    </NuxtLink>
-                    <NuxtLink
-                        class="navbar-item"
-                        :to="{ hash: '#work' }"
-                        @click="toggleNavBar"
-                    >
+                    </a>
+                    <a class="navbar-item" href="#work" @click="toggleNavBar">
                         Work
-                    </NuxtLink>
-                    <NuxtLink
+                    </a>
+                    <a
                         class="navbar-item"
-                        :to="{ hash: '#contact' }"
+                        href="#contact"
                         @click="toggleNavBar"
                     >
                         Contact
-                    </NuxtLink>
+                    </a>
                 </div>
 
                 <div class="navbar-end">
@@ -68,9 +60,9 @@
 </template>
 
 <script setup>
-const isActive = ref(false);
+const isActive = ref(false)
 
 const toggleNavBar = () => {
-    isActive.value = !isActive.value;
-};
+    isActive.value = !isActive.value
+}
 </script>
