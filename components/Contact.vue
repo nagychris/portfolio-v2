@@ -10,6 +10,9 @@
                 </p>
                 <ContactLinks />
             </div>
+            <p>
+                <a href="#"> Back to top</a>
+            </p>
         </div>
     </section>
 </template>

@@ -32,3 +32,8 @@ ul > li {
         padding-top: 2rem;
     }
 }
+
+// enable smooth scrolling
+html {
+    scroll-behavior: smooth;
+}

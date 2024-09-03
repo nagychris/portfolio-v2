@@ -8,10 +8,10 @@
                     </figure>
                 </div>
 
-                <div class="media-content">
-                    <p class="title is-6 has-text-weight-medium pb-1">
+                <div class="media-content content">
+                    <h6 class="has-text-weight-medium mb-2">
                         <slot name="title"></slot>
-                    </p>
+                    </h6>
                     <p class="is-family-monospace subtitle is-7">
                         <slot name="year"></slot>
                     </p>

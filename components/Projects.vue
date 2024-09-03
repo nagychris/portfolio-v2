@@ -1,6 +1,10 @@
 <template>
     <section class="section container" id="projects">
         <h1 class="title">Projects</h1>
+        <p>
+            Private projects I designed and developed, or open-source team
+            projects where I had a major impact on the result.
+        </p>
         <div class="is-flex is-flex-direction-column">
             <ProjectCardRow
                 :key="project.name"
