@@ -62,6 +62,17 @@ const clickLink = () => {
 
 .tag {
     background: var(--bulma-primary-90);
+
+    &[data-theme='dark'],
+    .theme-dark {
+        background: var(--bulma-primary);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .tag {
+        background: var(--bulma-primary-20);
+    }
 }
 
 .image.is-3by2 img {
