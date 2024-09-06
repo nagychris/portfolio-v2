@@ -63,4 +63,11 @@ const clickLink = () => {
 .tag {
     background: var(--bulma-primary-90);
 }
+
+.image.is-3by2 img {
+    width: auto;
+}
+.card-image:last-child img {
+    border-radius: 0;
+}
 </style>
