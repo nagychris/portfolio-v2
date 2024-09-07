@@ -1,6 +1,8 @@
 # nagychris/portfolio-v2
 
-Second iteration of my personal portfolio website built with [Nuxt 3](https://nuxt.com).
+Second iteration of my personal portfolio website built with [Nuxt 3](https://nuxt.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6657d67c-68c7-447a-9dae-b4cd82e2be6c/deploy-status)](https://app.netlify.com/sites/nagychris/deploys)
 
 ## Setup
 
