@@ -23,21 +23,14 @@
             </div>
             <div class="navbar-menu" :class="{ 'is-active': isActive }">
                 <div class="navbar-start">
-                    <a class="navbar-item" href="#" @click="toggleNavBar">
-                        Home
-                    </a>
-                    <a class="navbar-item" href="#about" @click="toggleNavBar">
-                        About
-                    </a>
-                    <a class="navbar-item" href="#work" @click="toggleNavBar">
-                        Work
-                    </a>
                     <a
+                        v-for="link in links"
+                        :key="link.name"
+                        :href="link.href"
                         class="navbar-item"
-                        href="#contact"
                         @click="toggleNavBar"
                     >
-                        Contact
+                        {{ link.name }}
                     </a>
                 </div>
 
@@ -60,6 +53,14 @@
 </template>
 
 <script setup>
+const links = [
+    { name: 'Home', href: '#' },
+    { name: 'About', href: '#about' },
+    { name: 'Work', href: '#work' },
+    { name: 'Projects', href: '#projects' },
+    { name: 'Contact', href: '#contact' },
+]
+
 const isActive = ref(false)
 
 const toggleNavBar = () => {

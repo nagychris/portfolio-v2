@@ -4,22 +4,42 @@
             <div class="media">
                 <div class="media-left">
                     <figure class="image is-48x48">
-                        <slot name="icon"></slot>
+                        <img
+                            :src="workStation.icon.src"
+                            :alt="workStation.icon.alt"
+                        />
                     </figure>
                 </div>
 
                 <div class="media-content content">
                     <h6 class="has-text-weight-medium mb-2">
-                        <slot name="title"></slot>
+                        {{ workStation.position }} @
+                        <a :href="workStation.companyUrl"
+                            >{{ workStation.company }}
+                        </a>
                     </h6>
                     <p class="is-family-monospace subtitle is-7">
-                        <slot name="year"></slot>
+                        {{ workStation.period }}
                     </p>
                 </div>
             </div>
             <div class="content">
-                <slot name="experience"></slot>
+                <ul>
+                    <li
+                        v-for="experience in workStation.experience"
+                        :key="experience"
+                    >
+                        {{ experience }}
+                    </li>
+                </ul>
             </div>
         </div>
     </Card>
 </template>
+<script lang="ts" setup>
+import type { WorkStation } from '~/models/workStation'
+
+const props = defineProps<{
+    workStation: WorkStation
+}>()
+</script>

@@ -1,9 +1,23 @@
-import type { Image } from './image'
+import type { ImgData } from './imgData'
 
-export interface Project {
+export class Project {
     name: string
     description: string
     tags: string[]
     url?: string
-    image?: Image
+    image?: ImgData
+
+    constructor(
+        name: string,
+        description: string,
+        tags: string[],
+        url?: string,
+        image?: ImgData
+    ) {
+        this.name = name
+        this.description = description
+        this.tags = tags
+        this.url = url
+        this.image = image
+    }
 }

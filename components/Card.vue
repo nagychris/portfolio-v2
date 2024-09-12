@@ -7,8 +7,12 @@
 <style scoped lang="scss">
 .card {
     --bulma-card-shadow: unset;
-    &:hover {
+
+    &.background-primary {
         --bulma-card-background-color: var(--bulma-background);
+    }
+    &.clickable:hover {
+        --bulma-card-background-color: var(--bulma-background-hover);
     }
 }
 </style>

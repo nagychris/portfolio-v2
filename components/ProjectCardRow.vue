@@ -1,5 +1,5 @@
 <template>
-    <Card @click="clickLink">
+    <Card @click="clickLink" class="background-primary clickable">
         <div class="card-content columns">
             <div class="column">
                 <div class="content">
@@ -33,7 +33,7 @@
                 v-if="project.image"
             >
                 <figure class="image is-3by2">
-                    <img :src="project.image.url" :alt="project.image.alt" />
+                    <img :src="project.image.src" :alt="project.image.alt" />
                 </figure>
             </div>
         </div>
