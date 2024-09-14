@@ -34,7 +34,8 @@
                     <p class="mb-3">
                         If I'm not currently being productive on my laptop, I
                         like to play team sports 🏀, do yoga 🧘, or read books
-                        📚.
+                        📚. I also love to listen to all kinds of music or
+                        produce my own tracks.
                     </p>
                     <p>
                         I am most proficient with modern technologies like
