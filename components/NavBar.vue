@@ -42,7 +42,12 @@
                                 href="/resume-christopher-nagy.pdf"
                                 target="_blank"
                             >
-                                <span>Resume</span>
+                                <span class="icon-text">
+                                    <span class="icon">
+                                        <Icon name="mdi:external-link" />
+                                    </span>
+                                    <span>Resume</span>
+                                </span>
                             </a>
                         </div>
                     </div>
