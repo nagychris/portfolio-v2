@@ -74,7 +74,7 @@ const skills = [
     new Skill(
         'Mobile-First, Native Apps & PWA',
         'mdi:cellphone',
-        'Focus on mobile-first web apps, cross-platform and native mobile apps, using Flutter, Ionic, or Android with Kotlin. Implementing PWAs as a web-based alternative using VueJS.'
+        'Focus on mobile-first web apps, cross-platform and native mobile apps, using Flutter, Ionic, or Android with Kotlin. Implementing PWAs as a web-based alternative, e.g., using VueJS and VitePWA.'
     ),
 ]
 </script>
