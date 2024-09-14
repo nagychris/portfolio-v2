@@ -3,7 +3,7 @@
         <div
             class="card-content is-flex is-flex-direction-column is-align-items-center has-text-centered"
         >
-            <h5>{{ skill.title }}</h5>
+            <h4>{{ skill.title }}</h4>
             <Icon :size="64" :name="skill.iconName" />
             <p>{{ skill.description }}</p>
         </div>

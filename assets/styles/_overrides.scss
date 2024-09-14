@@ -8,3 +8,7 @@ a:hover:not(.navbar-burger, .button, .navbar-item) {
     flex-grow: 1;
     justify-content: center !important;
 }
+
+.content h4 {
+    font-weight: var(--bulma-weight-light);
+}
