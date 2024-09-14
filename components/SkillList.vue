@@ -11,3 +11,9 @@ defineProps<{
     skills: Skill[]
 }>()
 </script>
+
+<style>
+.level {
+    align-items: unset;
+}
+</style>

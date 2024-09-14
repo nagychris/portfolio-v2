@@ -3,7 +3,7 @@
         <div class="card-content columns">
             <div class="column">
                 <div class="content">
-                    <h6 class="has-text-weight-medium">
+                    <h5 class="has-text-weight-medium">
                         <a
                             v-if="project.url"
                             :href="project.url"
@@ -14,7 +14,7 @@
                             <Icon name="mdi:external-link" />
                         </a>
                         <span v-else>{{ project.name }}</span>
-                    </h6>
+                    </h5>
 
                     <p>{{ project.description }}</p>
                     <div class="tags">

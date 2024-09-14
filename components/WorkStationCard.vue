@@ -12,13 +12,13 @@
                 </div>
 
                 <div class="media-content content">
-                    <h6 class="has-text-weight-medium mb-2">
+                    <h5 class="has-text-weight-medium mb-2">
                         {{ workStation.position }} @
                         <a :href="workStation.companyUrl"
                             >{{ workStation.company }}
                         </a>
-                    </h6>
-                    <p class="is-family-monospace subtitle is-7">
+                    </h5>
+                    <p class="is-family-monospace subtitle is-6">
                         {{ workStation.period }}
                     </p>
                 </div>

@@ -35,18 +35,18 @@ const projects: Project[] = [
         new ImgData('/images/lagekarte.png', 'Digitale Lagekarte Screenshots')
     ),
     new Project(
-        'Jourly',
-        'Native mobile app for mood tracking and journaling based on daily questions for inspiration. Created in a university group project at Blekinge Institute of Technology.',
-        ['Android', 'Kotlin'],
-        'https://github.com/nagychris/jourly-app',
-        new ImgData('/images/jourly.png', 'Jourly Screenshots')
-    ),
-    new Project(
         'UniGrade',
         'Grade tracking and course tracking app for university students, automatically calculates relevant metrics like GPA and total credits.',
         ['Angular', 'TypeScript', 'Ionic'],
         'https://github.com/nagychris/unigrade-app',
         new ImgData('/images/unigrade.png', 'UniGrade Screenshots')
+    ),
+    new Project(
+        'Jourly',
+        'Native mobile app for mood tracking and journaling based on daily questions for inspiration. Created in a university group project at Blekinge Institute of Technology.',
+        ['Android', 'Kotlin'],
+        'https://github.com/nagychris/jourly-app',
+        new ImgData('/images/jourly.png', 'Jourly Screenshots')
     ),
     new Project(
         'Portfolio v2',
