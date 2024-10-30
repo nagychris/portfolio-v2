@@ -9,7 +9,7 @@
                     Christopher Nagy.
                 </p>
                 <p class="mb-3">
-                    I am a software developer based in Bamberg, Germany.
+                    I love using modern technology to create tools that improve people's lives.
                 </p>
                 <ContactLinks />
             </div>

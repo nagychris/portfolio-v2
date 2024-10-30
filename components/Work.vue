@@ -17,6 +17,18 @@ import { ImgData } from '~/models/imgData'
 import { WorkStation } from '~/models/workStation'
 
 const workStations = [
+new WorkStation(
+        'Software Engineer',
+        'mediaire',
+        'https://mediaire.ai',
+        'Bamberg',
+        '2024 – present',
+        ['Building AI tools for MRI-based radiology, ensuring more efficient and reliable diagnoses.'],
+        new ImgData(
+            'https://cdn-ickij.nitrocdn.com/sRWiGAlBsMYWeIbNEwXChPIuWpkeXInP/assets/images/optimized/rev-368cf53/mediaire.ai/wp-content/uploads/2022/09/mediaire_LOGO2022CLAIM_blackblue_RGB_white-e1663916524202.png',
+            'mediaire Logo'
+        )
+    ),
     new WorkStation(
         'Software Engineer',
         'Lion5',
