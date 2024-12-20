@@ -18,14 +18,14 @@ import { WorkStation } from '~/models/workStation'
 
 const workStations = [
 new WorkStation(
-        'Software Engineer',
+        'Junior Full-Stack Engineer',
         'mediaire',
         'https://mediaire.ai',
-        'Bamberg',
+        'Berlin',
         '2024 – present',
-        ['Building AI tools for MRI-based radiology, ensuring more efficient and reliable diagnoses.'],
+        ['Building AI tools for MRI-based radiology, ensuring more efficient and reliable diagnoses.', 'Implementing an annotation viewer for medical 3D images using Cornerstone3D, TypeScript and React.'],
         new ImgData(
-            'https://cdn-ickij.nitrocdn.com/sRWiGAlBsMYWeIbNEwXChPIuWpkeXInP/assets/images/optimized/rev-368cf53/mediaire.ai/wp-content/uploads/2022/09/mediaire_LOGO2022CLAIM_blackblue_RGB_white-e1663916524202.png',
+            'images/mediaire.png',
             'mediaire Logo'
         )
     ),
